@@ -11,7 +11,8 @@ export default {
         "nunito-sans":['"Nunito Sans"',"sans-serif"]
       },
       boxShadow:{
-        "arrow-btn":"0px 4px 15px 0px #0000001A"
+        "arrow-btn":"0px 4px 15px 0px #0000001A",
+        card:"0px 10px 30px 0px #02B6DC26"
       },
       colors:{
         primary:"#00D2FF",
