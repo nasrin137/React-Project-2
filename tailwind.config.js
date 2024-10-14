@@ -10,6 +10,9 @@ export default {
         "space-grotesk":['"Space Grotesk"',"sans-serif"],
         "nunito-sans":['"Nunito Sans"',"sans-serif"]
       },
+      boxShadow:{
+        "arrow-btn":"0px 4px 15px 0px #0000001A"
+      },
       colors:{
         primary:"#00D2FF",
         secondary:"#2D2D2D",
