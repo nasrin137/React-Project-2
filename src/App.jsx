@@ -2,6 +2,7 @@ import Button from "./Components/Common/Button"
 import SectionTitle from "./Components/Common/SectionTitle"
 import FAQ from "./Components/Home/FAQ"
 import Hero from "./Components/Home/Hero"
+import Note from "./Components/Home/Note"
 import Partner from "./Components/Home/Partner"
 import ProblemSolution from "./Components/Home/ProblemSolution"
 import Review from "./Components/Home/Review"
@@ -21,6 +22,7 @@ function App() {
       <Review></Review>
       <Partner></Partner>
       <FAQ></FAQ>
+      <Note></Note>
       <div className="min-h-[50svh]">
       <Footer></Footer>
       </div>
