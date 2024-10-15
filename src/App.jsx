@@ -1,6 +1,7 @@
 import Button from "./Components/Common/Button"
 import SectionTitle from "./Components/Common/SectionTitle"
 import Hero from "./Components/Home/Hero"
+import Partner from "./Components/Home/Partner"
 import ProblemSolution from "./Components/Home/ProblemSolution"
 import Review from "./Components/Home/Review"
 import Footer from "./Components/Shared/Footer"
@@ -17,6 +18,7 @@ function App() {
       <Hero></Hero>
       <ProblemSolution></ProblemSolution>
       <Review></Review>
+      <Partner></Partner>
       <div className="min-h-[50svh]">
       <Footer></Footer>
       </div>

@@ -95,3 +95,23 @@ export const reviews = [
         }
     }
 ]
+export const partners = [
+    {
+        src:"Images/partner1.png"
+    },
+    {
+        src:"Images/partner2.png"
+    },
+    {
+        src:"Images/partner3.png"
+    },
+    {
+        src:"Images/partner4.png"
+    },
+    {
+        src:"Images/partner5.png"
+    },
+    {
+        src:"Images/partner6.png"
+    }
+]
