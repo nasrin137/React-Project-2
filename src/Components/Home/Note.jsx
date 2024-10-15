@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from '../Common/Container'
+import Button from '../Common/Button'
 
 function Note() {
   return (

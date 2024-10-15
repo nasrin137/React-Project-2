@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from '../Common/Container'
 import Logo from './Logo'
 import Button from '../Common/Button'
@@ -8,6 +8,13 @@ import MobileMenu from './MobileMenu'
 function  Navbar() {
     const [isMenuOpen,setIsMenuOpen] = useState(false)
     const toggleMenu = ()=> setIsMenuOpen(!isMenuOpen)
+
+    useEffect(()=>{
+        const bodyClass = document.body.classList;
+       isMenuOpen? bodyClass.add("no-scroll"): bodyClass.remove("no-scroll")
+        return()=>{bodyClass.remove("no-scroll")
+        }
+    },[isMenuOpen])
   return (
     <nav className='py-5'>
         <Container>
