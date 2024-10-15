@@ -1,5 +1,6 @@
 import Button from "./Components/Common/Button"
 import SectionTitle from "./Components/Common/SectionTitle"
+import FAQ from "./Components/Home/FAQ"
 import Hero from "./Components/Home/Hero"
 import Partner from "./Components/Home/Partner"
 import ProblemSolution from "./Components/Home/ProblemSolution"
@@ -19,6 +20,7 @@ function App() {
       <ProblemSolution></ProblemSolution>
       <Review></Review>
       <Partner></Partner>
+      <FAQ></FAQ>
       <div className="min-h-[50svh]">
       <Footer></Footer>
       </div>
